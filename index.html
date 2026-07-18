@@ -1,20 +1,224 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cüneyt Tanrıverdi | Official Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cüneyt Tanrıverdi | Official Website</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+
+height:100vh;
+
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("images/hero.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+}
+
+.hero p{
+
+font-size:24px;
+
+margin-top:20px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:40px;
+
+padding:15px 35px;
+
+background:white;
+
+color:#111;
+
+text-decoration:none;
+
+border-radius:50px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:#0077ff;
+
+color:white;
+
+}
+
+section{
+
+max-width:1100px;
+
+margin:auto;
+
+padding:100px 20px;
+
+}
+
+h2{
+
+font-size:40px;
+
+margin-bottom:30px;
+
+}
+
+.about{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+.about img{
+
+width:100%;
+
+border-radius:20px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.2);
+
+}
+
+footer{
+
+background:#111;
+
+color:white;
+
+padding:40px;
+
+text-align:center;
+
+}
+
+@media(max-width:900px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.about{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
 </head>
+
 <body>
 
-    <h1>Cüneyt Tanrıverdi</h1>
-    <h2>Founder & General Director of CTZ Group</h2>
+<header>
 
-    <p>
-        Hoş geldiniz.
-        Bu web sitesi hayat hikâyemi, profesyonel yolculuğumu,
-        projelerimi ve tecrübelerimi paylaşmak amacıyla hazırlanmıştır.
-    </p>
+<div class="hero">
+
+<h1>Cüneyt Tanrıverdi</h1>
+
+<p>Founder & General Director of CTZ GROUP</p>
+
+<a class="btn" href="#about">
+Hayat Hikâyem
+</a>
+
+</div>
+
+</header>
+
+<section id="about">
+
+<h2>Hakkımda</h2>
+
+<div class="about">
+
+<div>
+
+<p>
+
+1978 yılında İstanbul'da doğdum.
+
+2003 yılında Kazakistan'a geldim.
+
+Hayatım boyunca farklı sektörlerde yöneticilik, girişimcilik ve yatırımcılık yaptım.
+
+Bugün CTZ GROUP bünyesinde endüstriyel soğutma projeleri, üretim ve uluslararası ticaret alanında faaliyet göstermekteyim.
+
+</p>
+
+<br><br>
+
+<p>
+
+Bu web sitesi; hayat hikâyemi, projelerimi, tecrübelerimi ve gelecek hedeflerimi paylaşmak amacıyla hazırlanmıştır.
+
+</p>
+
+</div>
+
+<img src="images/profile.jpg">
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Cüneyt Tanrıverdi
+
+</footer>
 
 </body>
+
 </html>
